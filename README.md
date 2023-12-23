@@ -1,7 +1,7 @@
 Ahoj ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)Jmenuji se Metoděj Janota
 ======================================================================================================================================
 
-Full-stact developer and designer
+Full-stact developer a designer
 ---------------------------------
 
 Jsem full-stack vývojář a mým zaměřením je kombinace kódu, designu a plánování produktů. Věnuji se řešení konkrétních problémů pomocí technologie a mám zkušenosti z různých projektů
