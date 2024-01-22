@@ -1,9 +1,18 @@
 {
+  // Editor settings
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.vertical": "auto",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "auto",
   "workbench.startupEditor": "none",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "git.autofetch": true,
+  // Basic style settings
+  "workbench.colorTheme": "Andromeda Bordered",
   "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  // Prettier settings
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -22,24 +31,13 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveServer.settings.donotVerifyTags": true,
-  "editor.maxTokenizationLineLength": 2000000,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Andromeda Bordered",
-  //
-  //custom
-  //
-  // Font size
-  "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
-  // ui
-  "editor.minimap.enabled": false,
-  "window.commandCenter": false,
-  "editor.scrollbar.vertical": "auto",
-  "window.titleBarStyle": "custom",
-  "editor.scrollbar.horizontal": "auto",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Apc Customize UI++
   "apc.activityBar": {
     "position": "bottom",
     "size": 28
@@ -64,44 +62,11 @@
     ".inline-tabs-placeholder": "display: none !important",
     ".split-view-view .visible": "background-color: !important"
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  // Toggle excluded files
-  "files.exclude": {
-    "**/.git": false,
-    "**/.svn": false,
-    "**/.hg": false,
-    "**/CVS": false,
-    "**/.DS_Store": false,
-    "**/Thumbs.db": false,
-    "**/node_modules": false,
-    "**/.next": false,
-    "**/.husky": false,
-    "**/drizzle": false,
-    "**/dist": false,
-    "**/.todo.md": false,
-    "**/.vscode": false,
-    "**/.eslintrc.cjs": false,
-    "**/.editorconfig": false,
-    "**/.gitignore": false,
-    "**/.lintstagedrc.mjs": false,
-    "**/.markdownlint.json": false,
-    "**/.markdownlintignore": false,
-    "**/.prettierignore": false,
-    "**/bun.lockb": false,
-    "**/cspell.json": false,
-    "**/package-lock.json": false,
-    "**/pnpm-lock.yaml": false,
-    "**/next-env.d.ts": false,
-    "**/postcss.config.cjs": false,
-    "**/prettier.config.js": false,
-    "**/README.md": false,
-    "**/next.config.js": false,
-    "**/tailwind.config.ts": false,
-    "**/drizzle.config.ts": false,
-    "**/migrate.ts": false,
-    "**/.env.example": false
-  },
-  "security.workspace.trust.untrustedFiles": "open",
+  // Project Manager
+  "projectManager.git.baseFolders": [
+    "/Users/janx/Desktop/Projekty"
+  ],
+  "projectManager.sortList": "Recent",
+  // Other settings
+  "git.autofetch": true
 }
