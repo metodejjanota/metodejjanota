@@ -7,6 +7,7 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "auto",
   "workbench.startupEditor": "none",
+  "workbench.settings.editor": "json",
   // Basic style settings
   "workbench.colorTheme": "Andromeda Bordered",
   "workbench.iconTheme": "vscode-icons",
@@ -63,10 +64,17 @@
     ".split-view-view .visible": "background-color: !important"
   },
   // Project Manager
+  "projectManager.sortList": "Recent",
   "projectManager.git.baseFolders": [
     "/Users/janx/Desktop/Projekty"
   ],
-  "projectManager.sortList": "Recent",
+  // Toggle excluded files
+  "files.exclude": {
+    "node_modules": true,
+    ".next": true,
+    ".vscode": true,
+    "next-env.d.ts": true
+  },
   // Other settings
   "git.autofetch": true
 }
