@@ -1,0 +1,6 @@
+[
+    {
+        "key": "shift+alt+x",
+        "command": "workbench.action.terminal.new"
+    }
+]
