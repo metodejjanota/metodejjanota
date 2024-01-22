@@ -6,5 +6,9 @@
     {
         "key": "cmd+o",
         "command": "projectManager.listGitProjects#sideBarGit"
+    },
+    {
+        "key": "shift+alt+y",
+        "command": "toggleexcludedfiles.toggle"
     }
 ]
