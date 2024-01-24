@@ -11,6 +11,7 @@
   // Basic style settings
   "workbench.colorTheme": "Andromeda Bordered",
   "workbench.iconTheme": "vscode-icons",
+  // Font settings
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   // Prettier settings
@@ -63,6 +64,7 @@
     ".inline-tabs-placeholder": "display: none !important",
     ".split-view-view .visible": "background-color: !important"
   },
+  "editor.suggestSelection": "first",
   // Project Manager
   "projectManager.sortList": "Recent",
   "projectManager.git.baseFolders": [
@@ -76,5 +78,5 @@
     "next-env.d.ts": true
   },
   // Other settings
-  "git.autofetch": true
+  "git.autofetch": true,
 }
