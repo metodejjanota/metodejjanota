@@ -5,7 +5,13 @@
     },
     {
         "key": "cmd+o",
-        "command": "projectManager.listGitProjects#sideBarGit"
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "projectManager.refreshGitProjects",
+                "projectManager.listGitProjects#sideBarGit"
+            ]
+        }
     },
     {
         "key": "shift+alt+y",
