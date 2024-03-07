@@ -8,6 +8,10 @@
   "editor.scrollbar.horizontal": "auto",
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
   // Basic style settings
   "workbench.colorTheme": "Andromeda Bordered",
   "workbench.iconTheme": "vscode-icons",
@@ -16,28 +20,36 @@
   "terminal.integrated.fontSize": 12,
   // Prettier settings
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
   },
   // Apc Customize UI++
   "apc.activityBar": {
@@ -70,13 +82,7 @@
   "projectManager.git.baseFolders": [
     "/Users/janx/Desktop/Projekty"
   ],
-  // Toggle excluded files
-  "files.exclude": {
-    "node_modules": true,
-    ".next": true,
-    ".vscode": true,
-    "next-env.d.ts": true
-  },
   // Other settings
   "git.autofetch": true,
+  "window.confirmSaveUntitledWorkspace": false,
 }
