@@ -11,7 +11,7 @@
 - **Tools**: Git, Docker, Vim, VS Code, Jira
 
 ### 📚 Let's Connect:
-- 📫 How to reach me: [metodejjanota@gmail.com]
+- 📫 How to reach me: [metodejjanota@gmail.com](mailto:metodejjanota@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/metod%C4%9Bj-janota)
 - 💻 [Portfolio](https://metodejjanota.space)
 
