@@ -1,10 +1,18 @@
 ![Header](./header.png)
 
-# 💫 About Me:
-🌍 I am based in the Czech Republic  <br/>
-🚀 I am currently working on AstroLink  <br/>
-🖥️ Check out my portfolio at metodejjanota.cz  <br/>
-💬 You can contact me at janotametodej@gmail.com  <br/>
-⚡ Fun fact: I am Batman
+## 👋 Hi there! I'm Metoděj
 
-[![](https://visitcount.itsvg.in/api?id=metodej-janota&icon=1&color=1)](https://visitcount.itsvg.in)
+### 🔧 Technologies & Tools:
+- **Languages**: TS & JS, Rust, C++, Java
+- **Frontend**: React & Next.js, HTML5, CSS3, Tailwind CSS
+- **Backend**: Node.js, Express.js, Nest.js
+- **Databases**: MongoDB, PostgreSQL, MySql
+- **Cloud**: Google cloud console, SupaBase
+- **Tools**: Git, Docker, Vim, VS Code, Jira
+
+### 📚 Let's Connect:
+- 📫 How to reach me: [metodejjanota@gmail.com]
+- 💼 [LinkedIn](https://www.linkedin.com/in/metod%C4%9Bj-janota)
+- 💻 [Portfolio](https://metodejjanota.space)
+
+Thanks for stopping by! Feel free to explore my repositories and don't hesitate to reach out if you're interested in collaborating! 😄
