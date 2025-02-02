@@ -15,4 +15,7 @@
 - 💻 [Portfolio](https://metodejjanota.space)
 - 💼 [LinkedIn](https://www.linkedin.com/in/metod%C4%9Bj-janota)
 
+### 😔 Sad fact
+- Contributions are low because i changed my email 
+
 Thanks for stopping by! Feel free to explore my repositories and don't hesitate to reach out if you're interested in collaborating! 😄
