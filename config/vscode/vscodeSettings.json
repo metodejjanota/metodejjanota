@@ -1,0 +1,385 @@
+{
+	// Appearance
+	"editor.fontFamily": "0xProto Nerd Font",
+	"terminal.integrated.fontFamily": "Monaco",
+	"editor.fontSize": 14,
+	"window.zoomLevel": 1,
+	"workbench.layoutControl.enabled": false,
+	"editor.stickyScroll.enabled": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.navigationControl.enabled": false,
+	"window.commandCenter": false,
+	"git.autofetch": true,
+	"window.confirmSaveUntitledWorkspace": false,
+	"workbench.activityBar.location": "top",
+	"workbench.colorTheme": "Bearded Theme Arc",
+	"workbench.iconTheme": "catppuccin-latte",
+	"editor.minimap.enabled": false,
+	"workbench.tips.enabled": false,
+	"breadcrumbs.enabled": false,
+	"workbench.editor.showTabs": "multiple",
+	"window.density.editorTabHeight": "default",
+	"window.restoreWindows": "none",
+	"workbench.startupEditor": "newUntitledFile",
+	"window.openFilesInNewWindow": "off",
+	"workbench.sideBar.location": "right",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorBlinking": "solid",
+	"editor.tabSize": 2,
+	"editor.lineHeight": 24,
+	"editor.fontLigatures": true,
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.lineNumbers": "relative",
+	"editor.wordWrapColumn": 120,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.glyphMargin": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"Т": true,
+		"б": true,
+		"е": true
+	},
+
+	// Emmet
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "never",
+
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// Terminal
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.tabs.enabled": false,
+
+	// Custom Css
+	"vscode_custom_css.imports": [
+		"file:///Users/metodejjanota/Desktop/Projects/metodej-janota/vscodeCustomCss.css"
+	],
+
+	// VSCode vim
+	"vim.useSystemClipboard": true,
+	"vim.hlsearch": true,
+	"vim.useCtrlKeys": true,
+	"vim.leader": "<space>",
+	"vim.easymotion": true,
+	"vim.sneak": true,
+	"vim.incsearch": true,
+	"vim.highlightedyank.enable": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "k"],
+			"after": ["<Esc>"]
+		}
+	],
+	"vim.normalModeKeyBindings": [
+		// Universal
+		{
+			"before": ["<leader>", "s", "a"],
+			"commands": ["editor.action.selectAll"]
+		},
+		{
+			"before": ["<leader>", "w"],
+			"commands": ["workbench.action.files.save"]
+		},
+		{
+			"before": ["<leader>", "e"],
+			"commands": ["workbench.action.toggleSidebarVisibility"]
+		},
+		{
+			"before": ["<leader>", "p"],
+			"commands": ["workbench.action.showCommands"]
+		},
+		{
+			"before": ["<leader>", "q"],
+			"commands": ["workbench.action.closeActiveEditor"]
+		},
+		{
+			"before": ["<leader>", "h"],
+			"commands": [":nohl"]
+		},
+		// Split editor
+		{
+			"before": ["<leader>", "s", "v"],
+			"commands": ["workbench.action.splitEditor"]
+		},
+		{
+			"before": ["<leader>", "s", "h"],
+			"commands": ["workbench.action.splitEditorDown"]
+		},
+		// Jump to
+		{
+			"before": ["<leader>", "j", "e"],
+			"commands": ["workbench.view.explorer"]
+		},
+		// Editors switching
+		{
+			"before": ["<C-h>"],
+			"after": ["<C-w>", "h"]
+		},
+		{
+			"before": ["<C-j>"],
+			"after": ["<C-w>", "j"]
+		},
+		{
+			"before": ["<C-k>"],
+			"after": ["<C-w>", "k"]
+		},
+		{
+			"before": ["<C-l>"],
+			"after": ["<C-w>", "l"]
+		},
+		// Tabs
+		{
+			"before": ["<leader>", "t", "c"],
+			"commands": [":tabclose"]
+		},
+		{
+			"before": ["<leader>", "t", "p"],
+			"commands": [":tabp"]
+		},
+		{
+			"before": ["<leader>", "t", "n"],
+			"commands": [":tabnext"]
+		},
+		{
+			"before": ["<leader>", "t", "o"],
+			"commands": [":tabo"]
+		},
+		// Files
+		{
+			"before": ["<leader>", "f", "f"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<leader>", "f", "b"],
+			"commands": ["workbench.action.showAllEditors"]
+		},
+		{
+			"before": ["<leader>", "f", "s"],
+			"commands": ["workbench.action.findInFiles"]
+		},
+		// Actions
+		{
+			"before": ["<leader>", "a", "r"],
+			"commands": ["editor.action.rename"]
+		},
+		{
+			"before": ["<leader>", "a", "f"],
+			"commands": ["editor.action.autoFix"]
+		},
+		{
+			"before": ["<leader>", "a", "a"],
+			"commands": ["editor.action.quickFix"]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [">"],
+			"commands": ["editor.action.indentLines"]
+		},
+		{
+			"before": ["<"],
+			"commands": ["editor.action.outdentLines"]
+		},
+		{
+			"before": ["<S-j>"],
+			"commands": ["editor.action.moveLinesDownAction"]
+		},
+		{
+			"before": ["<S-k>"],
+			"commands": ["editor.action.moveLinesUpAction"]
+		}
+	],
+
+	// VSCode vim appearance
+	"editor.cursorSurroundingLines": 10,
+	"vim.smartRelativeLine": true,
+	"vim.highlightedyank.duration": 150,
+	"vim.statusBarColorControl": true,
+	"vim.statusBarColors.normal": ["#282828", "#ffffff"],
+	"vim.statusBarColors.insert": ["#29b362", "#ffffff"],
+	"vim.statusBarColors.visual": ["#baa24a", "#ffffff"],
+	"vim.statusBarColors.visualline": ["#baa24a", "#ffffff"],
+	"vim.statusBarColors.visualblock": ["#baa24a", "#ffffff"],
+	"vim.statusBarColors.commandlineinprogress": ["#2C2206", "#ffffff"],
+	"vim.statusBarColors.searchinprogressmode": ["#171819", "#ffffff"],
+	"vim.statusBarColors.surroundinputmode": ["#171819", "#ffffff"],
+
+	// Project Manager
+	"projectManager.openInNewWindowWhenClickingInStatusBar": false,
+
+	// Prettier
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+
+	//Formatters
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.arrowParens": "avoid",
+	"editor.inlineSuggest.enabled": true,
+
+	// Project Manager
+	"projectManager.sortList": "Recent",
+	"projectManager.git.baseFolders": ["/Users/metodejjanota/Desktop/Projects"],
+
+	// VSCode WhitchKey
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<space>"],
+			"commands": ["whichkey.show"]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<space>"],
+			"commands": ["whichkey.show"]
+		}
+	],
+	"whichkey.useFullWidthCharacters": true,
+	"whichkey.bindingOverrides": [],
+	"whichkey.bindings": [
+		{
+			"key": "/",
+			"name": "[/] Fuzzy search in current folder",
+			"type": "command",
+			"command": "fuzzySearch.activeTextEditor"
+		},
+		{
+			"key": "f",
+			"name": "[f] Files",
+			"type": "bindings",
+			"bindings": [
+				{
+					"key": "f",
+					"name": "[f] Files in folder",
+					"type": "command",
+					"command": "workbench.action.quickOpen"
+				},
+				{
+					"key": ".",
+					"name": "[.] Search recent files",
+					"type": "command",
+					"command": "workbench.action.openRecent"
+				}
+			]
+		},
+		{
+			"key": "w",
+			"name": "[w] Window",
+			"type": "bindings",
+			"bindings": [
+				{
+					"key": "e",
+					"name": "[e] View extensions",
+					"type": "command",
+					"command": "workbench.view.extensions"
+				},
+				{
+					"key": "t",
+					"name": "[t] File tree",
+					"type": "command",
+					"command": "workbench.view.explorer"
+				},
+				{
+					"key": "g",
+					"name": "[g] Git",
+					"type": "command",
+					"command": "workbench.view.scm"
+				}
+			]
+		},
+		{
+			"key": "g",
+			"name": "[g] Git",
+			"type": "bindings",
+			"bindings": [
+				{
+					"key": "s",
+					"name": "[s] Git status",
+					"type": "command",
+					"command": "git.status"
+				},
+				{
+					"key": "c",
+					"name": "[c] Git commit",
+					"type": "command",
+					"command": "git.commit"
+				},
+				{
+					"key": "p",
+					"name": "[p] Git push",
+					"type": "command",
+					"command": "git.push"
+				},
+				{
+					"key": "l",
+					"name": "[l] Git log",
+					"type": "command",
+					"command": "git.log"
+				}
+			]
+		},
+		{
+			"key": "v",
+			"name": "[v] Vscode settings",
+			"type": "bindings",
+			"bindings": [
+				{
+					"key": "s",
+					"name": "[s] Open settings in json",
+					"type": "command",
+					"command": "workbench.action.openSettingsJson"
+				},
+				{
+					"key": "k",
+					"name": "[k] Open keybindings",
+					"type": "command",
+					"command": "workbench.action.openGlobalKeybindings"
+				},
+				{
+					"key": "p",
+					"name": "[p] Open command palette",
+					"type": "command",
+					"command": "workbench.action.showCommands"
+				},
+				{
+					"key": "e",
+					"name": "[e] View extensions",
+					"type": "command",
+					"command": "workbench.view.extensions"
+				},
+				{
+					"key": "t",
+					"name": "[t] File tree",
+					"type": "command",
+					"command": "workbench.view.explorer"
+				}
+			]
+		}
+	],
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#282828",
+		"statusBar.noFolderBackground": "#282828",
+		"statusBar.debuggingBackground": "#282828",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingForeground": "#ffffff"
+	}
+}
