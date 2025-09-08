@@ -17,9 +17,9 @@
 
 ### 📚 Let's Connect:
 
-- 📫 How to reach me: [metodejjanota@gmail.com](mailto:metodejjanota@gmail.com)
-- 💻 [Portfolio](https://metodejjanota.space)
-- 💼 [LinkedIn](https://www.linkedin.com/in/metod%C4%9Bj-janota)
+- 📫 How to reach me: [metodejjanota@gmail.com](mailto:dev@metodejjanota.com)
+- 💻 [Portfolio](https://metodejjanota.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/metoděj-janota/)
 
 ### 😔 Sad fact
 
