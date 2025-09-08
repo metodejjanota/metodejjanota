@@ -17,7 +17,7 @@
 
 ### 📚 Let's Connect:
 
-- 📫 How to reach me: [metodejjanota@gmail.com](mailto:dev@metodejjanota.com)
+- 📫 How to reach me: [dev@metodejjanota.com](mailto:dev@metodejjanota.com)
 - 💻 [Portfolio](https://metodejjanota.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/metoděj-janota/)
 
