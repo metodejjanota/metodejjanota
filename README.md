@@ -11,10 +11,6 @@
 - **Cloud**: Google cloud console, SupaBase
 - **Tools**: Git, Docker, Vim, VS Code, Jira
 
-### Currently working on:
-
-- **CollaboMate**: A collaborative platform for developers to connect, share knowledge, and work on projects together. It's designed to foster a community of innovation and teamwork. Stay tuned for more updates!
-
 ### 📚 Let's Connect:
 
 - 📫 How to reach me: [dev@metodejjanota.com](mailto:dev@metodejjanota.com)
