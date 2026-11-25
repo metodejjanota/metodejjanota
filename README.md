@@ -1,24 +1,15 @@
-![Header](./header.png)
+![Metoděj Janota, fullstack developer](./header.png)
 
-## 👋 Hi there! I'm Metoděj
+Hi, I'm Metoděj, a fullstack developer working mostly in TypeScript. In my own time I work on Octa, a set of tools that collect nothing about the people who use them. The first one is Tilde, a web browser with a core in Rust. It isn't public yet.
 
-### 🔧 Technologies & Tools:
+I like fast setups, keyboard-only workflows and tweaking things until they get out of my way.
 
-- **Languages**: TS & JS, Rust, C++, Java
-- **Frontend**: React & Next.js, HTML5, CSS3, Tailwind CSS
-- **Backend**: Node.js, Express.js, Nest.js
-- **Databases**: MongoDB, PostgreSQL, MySql
-- **Cloud**: Google cloud console, SupaBase
-- **Tools**: Git, Docker, Vim, VS Code, Jira
+### Usually in my editor
 
-### 📚 Let's Connect:
+TypeScript, React, Nest.js, Svelte, Rust, Tailwind CSS, MongoDB, PostgreSQL, Docker
 
-- 📫 How to reach me: [dev@metodejjanota.com](mailto:dev@metodejjanota.com)
-- 💻 [Portfolio](https://metodejjanota.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/metoděj-janota/)
+### Say hi
 
-### 😔 Sad fact
+[dev@metodejjanota.com](mailto:dev@metodejjanota.com) · [metodejjanota.com](https://www.metodejjanota.com) · [LinkedIn](https://www.linkedin.com/in/metod%C4%9Bj-janota/)
 
-- Contributions are low because I changed my email
-
-Thanks for stopping by! Feel free to explore my repositories and don't hesitate to reach out if you're interested in collaborating! 😄
+<sub>The contribution graph looks quieter than it was: older commits went out under a previous email.</sub>
