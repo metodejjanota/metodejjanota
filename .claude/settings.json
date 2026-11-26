@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "metodejjanota": {
+      "source": { "source": "github", "repo": "metodejjanota/skills", "ref": "main" }
+    }
+  },
+  "enabledPlugins": {
+    "general@metodejjanota": true,
+    "code@metodejjanota": true,
+    "design@metodejjanota": true,
+    "writing@metodejjanota": true
+  }
+}
